@@ -1,0 +1,211 @@
+favicon: /img/avatar.jpg
+apple_touch_icon: /img/avatar.jpg
+force_https: false
+
+font:
+  font_size: 16px
+  font_family:
+  letter_spacing: 0.02em
+  code_font_size: 85%
+
+custom_js:
+custom_css:
+
+# Header
+# Navigation bar
+navbar:
+  blog_title: "Kevin"
+  ground_glass:
+    enable: false
+    px: 3
+    alpha: 0.7
+
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+
+
+footer:
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/JkevinW" target="_blank" rel="nofollow noopener"><span>Kevin</span></a>
+  '
+
+  statistics:
+    enable: false
+    source: "busuanzi"
+  beian:
+    enable: false
+    icp_text: 京ICP证123456号
+    police_text: 京公网安备12345678号询
+    police_code: 12345678
+    police_icon: /img/police_beian.png
+
+
+index:
+  banner_img: /img/banner.jpg
+  banner_img_height: 85
+  banner_mask_alpha: 0
+  slogan:
+    enable: true
+    text: "Merry Christma~ Bye 2023"
+    api:
+      enable: false
+      url: ""
+      method: "GET"
+      headers: {}
+      keys: []
+
+  auto_excerpt:
+    enable: true
+
+  post_url_target: _self
+
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+  post_sticky:
+    enable: true
+    icon: "iconfont icon-top"
+
+
+post:
+  banner_img: /img/banner.jpg
+  banner_img_height: 70
+  banner_mask_alpha: 0.3
+  default_index_img:
+
+  meta:
+    author:
+      enable: false
+    date:
+      enable: true
+      format: "LL a"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+      awl: 2
+      wpm: 60
+    views:
+      enable: false
+      source: "busuanzi"
+
+  updated:
+    enable: true
+    date_format: "LL a"
+    relative: false
+    note_class: info
+
+  category_bar:
+    enable: true
+    specific: true
+    placement: left
+    post_order_by: "title"
+    post_limit: 0
+
+  toc:
+    enable: true
+    placement: right
+    headingSelector: "h1,h2,h3,h4,h5,h6"
+    collapseDepth: 0
+
+  copyright:
+    enable: false
+    license: 'BY'
+    author:
+      enable: true
+    post_date:
+      enable: true
+      format: "LL"
+    update_date:
+      enable: false
+      format: "LL"
+
+  prev_next:
+    enable: true
+
+  image_caption:
+    enable: true
+
+  image_zoom:
+    enable: true
+    img_url_replace: ['', '']
+
+  footnote:
+    enable: true
+    header: ''
+
+  math:
+    enable: false
+    specific: false
+    engine: mathjax
+
+  mermaid:
+    enable: false
+    specific: false
+    options: { theme: 'default' }
+
+
+archive:
+  banner_img: /img/banner.jpg
+  banner_img_height: 60
+  banner_mask_alpha: 0
+
+
+category:
+  enable: true
+  banner_img: /img/banner.jpg
+  banner_img_height: 60
+  banner_mask_alpha: 0
+  order_by: "-length"
+  post_order_by: "-date"
+  post_limit: 10
+
+
+tag:
+  enable: true
+  banner_img: /img/banner.jpg
+  banner_img_height: 30
+  banner_mask_alpha: 0
+  tagcloud:
+    min_font: 15
+    max_font: 30
+    unit: px
+    start_color: "#BBBBEE"
+    end_color: "#337ab7"
+
+
+about:
+  enable: true
+  banner_img: /img/banner.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0
+  avatar: /img/avatar.jpg
+  name: "J.Kevin"
+  intro: "Busy to live"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/JkevinW", tip: "GitHub" }
+    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/83176570", tip: "Bilibili" }
+
+
+# Custom Page
+page:
+  banner_img: /img/bannner.jpg
+  banner_img_height: 60
+  banner_mask_alpha: 0
+
+
+page404:
+  enable: true
+  banner_img: /img/banner.png
+  banner_img_height: 85
+  banner_mask_alpha: 0
+  redirect_delay: 5000
