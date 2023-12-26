@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-catagories:
+categories:
 tags:
 excerpt:
 index_img:
